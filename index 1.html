@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Лаб раб №6</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    </head>
+    <style>
+        body{
+            font-size: 25px;
+        }
+    </style>
+    
+    <body>
+    <form action="action_form.php" method="POST">
+        <p>
+            Обращение:
+                <input type="radio" name="obr" value="gn">Г-н
+                <input type="radio" name="obr" value="gga" >Г-жа<br><br>
+            Имя
+                <input type="text" name="имя" value=""><br><br>
+            Фамилия
+                <input type="text" name="фамилия" value=""><br><br>
+            Email
+                <input type="text" name="фамилия" value=""><br><br>
+            Телефон
+                <input type="text" name="телефон" value=""><br><br>
+            Пароль
+                <input type="password" name="пароль" value=""><br><br>
+            Подтвердите пароль
+                <input type="password" name="пароль 2" value=""><br><br>
+            Страна
+                <select name="Страна">
+                        <option>Канада</option>
+                        <option value="t1">Россия</option>
+                        <option value="t1">США</option>
+                        <option value="t1">Беларусь</option>
+                        <option value="t1">Польша</option>
+                 </select><br><br>
+        
+            <input type="checkbox" name="соглашение" value="">Я согласен с <a href="">условиями использования</a><br><br>
+            <input type="button" name="Зарегистрироваться" value="Зарегистрироваться">
+        </p>
+    </form>
+        
+    </body>
+</html>
